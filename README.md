@@ -13,7 +13,7 @@ build
 
 g++ -c -fPIC spike.cpp -o spike.o
 
-g++ -shared -Wl,-soname,libspike.so -o libspike.so spike.o
+g++ -shared -o libspike.so spike.o
 
 execution
 ===============
